@@ -1,6 +1,16 @@
 {
-  "name": "VK Media",
+  "name": "VK Menu",
   "version": "1.0.0",
-  "parameter": "menu:https://vkoko8-a11y.github.io/msx/menu.json",
-  "welcome": "start"
+  "menu": [
+    {
+      "icon": "movie",
+      "label": "🎬 Filmai (Movies)",
+      "data": "user:https://msx.benzac.de/services/m3u.php?type=video&mode=extended&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Fcategories%2Fmovies.m3u"
+    },
+    {
+      "icon": "tv",
+      "label": "🇷🇺 Rusų kanalai",
+      "data": "user:https://msx.benzac.de/services/m3u.php?type=video&mode=extended&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Flanguages%2Frus.m3u"
+    }
+  ]
 }
