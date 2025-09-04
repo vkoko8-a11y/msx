@@ -1,13 +1,6 @@
 {
-  "type": "menu",
-  "items": [
-    {
-      "title": "🎬 Movies",
-      "action": "playlist:https://iptv-org.github.io/iptv/categories/movies.m3u"
-    },
-    {
-      "title": "🇷🇺 Russia Channels",
-      "action": "playlist:https://iptv-org.github.io/iptv/languages/rus.m3u"
-    }
-  ]
+  "name": "VK Media",
+  "version": "1.0.0",
+  "parameter": "menu:https://vkoko8-a11y.github.io/msx/menu.json",
+  "welcome": "start"
 }
